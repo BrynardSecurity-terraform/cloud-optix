@@ -1,5 +1,6 @@
 name: "Terraform"
-
+defaults:
+  working-directory: ./resource_files
 on:
   push:
     branches:
