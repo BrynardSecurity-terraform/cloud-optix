@@ -1,13 +1,3 @@
-terraform {
-  cloud {
-    organization = "TheBrynards"
-
-    workspaces {
-      name = "cloud-optix"
-    }
-  }
-}
-
 provider "aws" {
   region = var.AWS_DEFAULT_REGION
   shared_credentials_file = "~/.aws/credentials"
